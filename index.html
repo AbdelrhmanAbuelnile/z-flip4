@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Samsung</title>
+</head>
+<body >
+    
+    <header >
+        
+        <a  href="#" ><img src="images/Samsung-Logo.wine.svg" class="logo"></a>
+        
+        <div class="links" onclick="openList()">
+            <span class="icon">
+                <span></span>
+                <span id="second"></span>
+                <span></span>
+            </span>
+            <ul id="list" >
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </div>
+        
+    </header>
+
+    
+    <div  onclick="closeAll()" >
+        
+        <div class="container" >
+                
+            <div class="content" >
+                <div class="text">
+                    <h2>Z Flip4</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam dolores quaerat voluptatem eaque consequatur ipsum velit itaque deleniti et!</p>
+                    <a href="#" class="btn">All Products</a>
+                </div>
+
+                <div class="image">
+                    <img src="images/black.webp"  class="big-one">
+                </div>
+
+            </div>
+
+            <div class="icons" >
+
+                <img onclick="changeSrc(this.src) ; changeBack('#a1a1a1')" src="images/black.webp">
+                <img onclick="changeSrc(this.src) ; changeBack('#83E6FA')" src="images/blue.webp">
+                <img onclick="changeSrc(this.src) ; changeBack('#FCCCA2')" src="images/pink gold.webp">
+                <img onclick="changeSrc(this.src) ; changeBack('#E7D2F0')" src="images/purple.webp">
+
+            </div>
+
+        </div>
+
+        </div>
+
+
+    
+    <script src="main.js"></script>
+</body>
+</html>
